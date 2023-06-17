@@ -1,0 +1,33 @@
+.main-container {
+  width: 410px;
+  height: 165px;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.main-container > div {
+  border: 2px solid blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-box {
+  width: 100px;
+  height: 40px;
+  border: 2px solid red;
+
+}
+.second-box {
+  width: 140px;
+  height: 40px;
+  border: 2px solid red;
+
+}
+.third-box {
+  width: 200px;
+  height: 40px;
+  border: 2px solid red;
+
+}
+
