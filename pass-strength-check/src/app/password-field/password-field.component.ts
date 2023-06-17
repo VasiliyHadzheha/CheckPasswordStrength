@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./password-field.component.css']
 })
 export class PasswordFieldComponent {
-  
+  visiblePass: boolean = false;
+  password: string = '';
 }

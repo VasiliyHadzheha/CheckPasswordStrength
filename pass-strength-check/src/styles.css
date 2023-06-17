@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Tilt+Neon&display=swap');
+
+* {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Tilt Neon', cursive;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 500px;
   margin: 0 auto;
 }
