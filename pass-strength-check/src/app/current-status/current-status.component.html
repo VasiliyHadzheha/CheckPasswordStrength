@@ -1,13 +1,14 @@
 <div class="main-container">
   <div class="first-section">
-    <div class="first-box"></div>
+    <div class="first-box" [ngStyle]="{ 'background-color': firstBoxColor }"></div>
     <p>weak</p>
   </div>
-  <div class="second-section">    
-    <div class="second-box"></div>
-    <p>medium</p></div>
+  <div class="second-section">
+    <div class="second-box" [ngStyle]="{ 'background-color': secondBoxColor }"></div>
+    <p>medium</p>
+  </div>
   <div class="third-section">
-    <div class="third-box"></div>
+    <div class="third-box" [ngStyle]="{ 'background-color': thirdBoxColor }"></div>
     <p>strong</p>
   </div>
 </div>

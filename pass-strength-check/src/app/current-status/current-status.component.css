@@ -24,10 +24,14 @@
 .second-box {
   width: 140px;
   height: 40px;
-
 }
 .third-box {
   width: 200px;
   height: 40px;
 }
 
+.first-box,
+.second-box,
+.third-box {
+  transition: background-color 1s ease;
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-password-field',
@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class PasswordFieldComponent {
   visiblePass: boolean = false;
   password: string = '';
+  @Output() passwordChanged = new EventEmitter<string>();
+  emitPassword(): void {
+    this.passwordChanged.emit(this.password);
+  }
 }

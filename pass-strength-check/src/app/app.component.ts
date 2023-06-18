@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pass-strength-check';
+  password: string = '';
+
+  updatePassword(event: any) {
+    this.password = event;
+  }
 }

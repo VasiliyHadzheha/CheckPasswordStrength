@@ -5,16 +5,18 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { PasswordFieldComponent } from './password-field/password-field.component';
 import { CurrentStatusComponent } from './current-status/current-status.component';
+import { ParentDataExchangeComponent } from './parent-data-exchange/parent-data-exchange.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PasswordFieldComponent,
-    CurrentStatusComponent
+    CurrentStatusComponent,
+    ParentDataExchangeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

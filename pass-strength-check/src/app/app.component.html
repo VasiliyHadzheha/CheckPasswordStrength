@@ -1,5 +1,5 @@
 <div class="container">
   <h1>Test your password strenght</h1>
-  <app-password-field></app-password-field>
-  <app-current-status></app-current-status>
+  <app-password-field (passwordChanged)="updatePassword($event)"></app-password-field>
+  <app-current-status [password]="password"></app-current-status>
 </div>
